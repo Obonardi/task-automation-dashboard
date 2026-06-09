@@ -1,3 +1,12 @@
+/**
+ * CODE EVALUATION SUMMARY
+ * -----------------------
+ * Correctness: [We will fill this in together]
+ * Efficiency: [We will fill this in together]
+ * Reasoning: [We will fill this in together]
+ * Improvement Opportunities: [We will fill this in together]
+ */
+
 const fs = require('fs');
 const path = require('path');
 
