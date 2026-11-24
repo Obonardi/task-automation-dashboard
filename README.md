@@ -1,18 +1,19 @@
-# task-automation-dashboard
+# Task Automation Dashboard
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+A Node.js command-line prototype for reviewing tasks stored in a local JSON file. It counts tasks and displays pending high-priority items in a console table.
 
-A centralized control center designed to monitor, track, and execute automated workflows with real-time visibility.
+## Run
 
-## Purpose
-This dashboard provides a unified interface for managing complex automation pipelines, allowing for quick status checks and efficient task orchestration.
+From the repository root with Node.js installed:
 
-## Key Features
-* **Real-time Monitoring**: Track active automation tasks at a glance.
-* **Workflow Control**: Manage, trigger or pause processes directly from the dashboard.
-* **Aggregated Reporting**: Consolidated logs for better decision making and performance tuning.
+```sh
+node src/dashboard.js
+```
 
-## Quick Start
-1. Clone the repo: `git clone https://github.com/Obonardi/task-automation-dashboard.git`
-2. Install dependencies: `npm install`
-3. Launch the dashboard: `npm start`
+The script reads data/tasks.json, an array of task objects with priority and status fields.
+
+## Scope
+
+This is a snapshot report, not a live dashboard or workflow execution engine. Interactive controls and historical reporting are possible future enhancements.
+
+MIT license.
